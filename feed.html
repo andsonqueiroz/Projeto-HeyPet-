@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de usuário</title>
+    <link rel="stylesheet" href="feed.css">
+    <script src="./feed.js"></script>
+</head>
+
+<script src="https://kit.fontawesome.com/e5d084f68c.js" crossorigin="anonymous"></script>
+
+<header>
+    <nav class="menu">
+        <div id="menu-lateral">
+                <h1></h1>
+            <input type="text" name="pesquisar" id="pesquisar" placeholder="Pesquisar">
+            <a href="comunidade.html"><i id="arrow_sugestoes" class="fa-solid fa-arrow-right fa-lg" style="color: #f57c00;"></i></a>
+            <h4 class="text_sugestoes">Sugestões para você</h4>
+        </div>
+        <div>
+            <h4 id="text_perfils">Perfis</h4>
+            <div class="sugestao1">
+                <h4>Derik</h4>
+                <img class="sugestaoperfil1" src="https://i.pinimg.com/564x/ed/87/80/ed8780d0e2254e25284008854b355053.jpg" alt="perfil">
+                
+                <button class="addperfil1"><i class="fa-solid fa-circle-plus fa-xl" style="color: #f57c00;"></i></button>
+            </div>
+            <br>
+            <div class="sugestao2">
+                <h4>Snowball</h4>
+                <img class="sugestaoperfil2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQs15GLDNf2uMIIBniCp2Z-srq2iajIH9gmc40t9i20w&s" alt="perfil">
+                
+                <button class="addperfil2"><i class="fa-solid fa-circle-plus fa-xl" style="color: #f57c00;"></i></button>
+            </div>
+        </div>
+        <div style="margin: 40px 0;">
+            <h4 id="text_perfils">Comunidades</h4>
+            <div class="sugestao1">
+                <h4 style="right: 28%;">Guardicão</h4>
+                <img class="sugestaoperfil1" src="https://www.mundodomarketing.com.br/wp-content/uploads/2023/08/Artigos-para-caes-sao-os-mais-buscados-na-categoria-Pet-da-Shopee-jpg.webp" alt="perfil">
+                
+                <button class="addperfil1"><i class="fa-solid fa-circle-plus fa-xl" style="color: #f57c00;"></i></button>
+            </div>
+            <br>
+            <div class="sugestao2">
+                <h4>Luisa Mel</h4>
+                <img class="sugestaoperfil2" src="https://www.mundodomarketing.com.br/wp-content/uploads/2023/08/Artigos-para-caes-sao-os-mais-buscados-na-categoria-Pet-da-Shopee-jpg.webp" alt="perfil">
+                
+                <button class="addperfil2"><i class="fa-solid fa-circle-plus fa-xl" style="color: #f57c00;"></i></button>
+            </div>
+        </div>
+        <div>
+            <p style="text-align: center; font-size: 12px;">Português (Brasil)</p>
+            <ol class="termos">
+                <li><a href="#">Termos</a></li>
+                <li><a href="#">Ajuda?</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ol>
+        </div>
+    </nav>
+    <nav class="menu2">
+        <div id="menu-lateral2">
+            <img src="https://i.pinimg.com/originals/f1/b1/24/f1b12409542e8dd276e5b3faab2295a5.png" alt="logo" class="logo">
+            <div>
+               <a href="feed.html"> <button id="feed" class="icone_menu"> <i class="fa-solid fa-house fa-2xl" style="color: #f57c00;"></i> Feed</button> </a>
+            </div>
+            <div>
+               <a href="perfil2.html"> <button id="perfil" class="icone_menu"> <i class="fa-solid fa-paw fa-2xl" style="color: #f57c00;"></i></i> Perfil</button> </a>
+            </div>
+            <div>
+              <a href="comunidade.html"><button id="comunidade" class="icone_menu"> <i class="fa-solid fa-people-roof fa-2xl" style="color: #f57c00;"></i> Comunidade</button></a>
+            </div>
+            <div>
+                <button id="notificacoes" class="icone_menu"> <i class="fa-regular fa-bell fa-2xl" style="color: #f57c00;"></i> Notificações</button>
+            </div>
+            <div>
+               <a href="premium.html"><button id="premium" class="icone_menu"> <i class="fa-solid fa-circle-dollar-to-slot fa-2xl" style="color: #f57c00;"></i> Premium</button></a> 
+            </div>
+            <div>
+               <a href="Entrar.html"><button id="logout" class="icone_menu"> <i class="fa-solid fa-right-from-bracket fa-2xl" style="color: #f57c00;"></i> Log out</button></a>
+            </div>
+            <div>
+               <a href="configuracoes.html"><button id="configuracoes" class="icone_menu"> <i class="fa-solid fa-gear fa-2xl" style="color: #f57c00;"></i> Configurações</button></a>
+            </div>
+            <button class="publicar">+ Publicar</button>
+        </div>
+    </nav>
+</header>
+    <body>
+
+        
+        <section>
+            
+            <div class="publicacoes">
+
+                <img class="status1" src="./imagens.feed/status1.jpeg" alt="ft1">
+                <img class="status2" src="./imagens.feed/status2.jpeg" alt="ft2">
+                <img class="status3" src="./imagens.feed/status33.jpeg" alt="ft3">
+                <img class="status4" src="./imagens.feed/status4.jpeg" alt="ft4">
+                <img class="status5" src="./imagens.feed/status5.jpeg" alt="ft5">
+                <img class="status6" src="./imagens.feed/status77.jpeg" alt="ft6">
+                <img class="status7" src="./imagens.feed/status7.jpeg" alt="ft7">
+
+                <button class="seg" id="seg-button">seguindo</button>
+                <div class="line1" id="line1"></div>
+                <div>
+                <button class="pravc" id="pravc-button">Para Você</button>
+                <div class="line2" id="line2">
+                </div>
+
+                
+
+                
+                    <img class="publi1" src="./imagens.feed/publi11.jpeg" alt="img" height="360" width="280" >
+                </div>
+                
+                <div class="comentariopvc1">
+                    <div><img class="cmpvc1" src="imagens.feed/status3.jpeg" alt="pvc1"></div>
+                    <div class="txtpvc1"><p>kitty.s</p></div>
+                </div>
+
+                <div class="comentario1" id="btn-coment1">
+                    <img class="perfil1" src="./imagens.feed/status3.jpeg" alt="perf1">
+                    <p class="titper1">kitty.s</p>
+                    <div class="linha1">
+
+                    </div>
+                    <div class="come1_1">
+                        
+                    </div>
+                    <div class="come1_2">
+                        
+                    </div>
+                    <div class="come1_3">
+                        
+                    </div>
+                    <div class="come1_4">
+                        
+                    </div>
+                    <div class="come1_5">
+                        
+                    </div>
+                    <div class="come1_6">
+                        
+                    </div>
+                    <div class="come1_7">
+                        
+                    </div>
+                    <div class="come1_8">
+                        
+                    </div>
+                    <div class="come1_9">
+                        
+                    </div>
+                    <div class="come1_10">
+                        
+                    </div>
+                    <div class="come1_11">
+                        
+                    </div>
+                    <div class="come1_12">
+                        
+                    </div>
+                    <div class="com1">
+                        
+                    </div>
+                    <div class="com2">
+                        
+                    </div>
+                    <div class="com3">
+                        
+                    </div>
+                    <div class="com4">
+                        
+                    </div>
+                </div>
+                
+                <div class="opcoes1">
+                    <button class="like1" id="like-button">
+                        <i class="fa-solid fa-heart" id="heart-icon"></i>
+                    </button>
+                    <button class="coment1">
+                        <i class="fa-regular fa-comment" id="div-coment1"></i>
+                    </button>
+                    <button class="compartilhar1">
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </button>
+                    <button class="save1">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+                    <button class="mais1">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+                <div >
+                    <img class="publi2" src="./imagens.feed/posragem22.jpeg" alt="img2" height="360" width="280">
+                </div>
+
+                <div class="comentariopvc2">
+                    <div><img class="cmpvc2" src="./imagens.feed/perfil2.jpeg" alt="pvc2"></div>
+                    <div class="txtpvc2"><p>Rex.eve</p></div>
+                </div>
+
+                <div class="comentario2">
+                    <img class="perfil2" src="./imagens.feed/perfil2.jpeg" alt="perf2">
+
+                    <div class="linha2">
+
+                    </div>
+                    
+                    <p class="titper2">Rex.eve</p>
+                    <div class="come1_1">
+                        
+                    </div>
+                    <div class="come1_2">
+                        
+                    </div>
+                    <div class="come1_3">
+                        
+                    </div>
+                    <div class="come1_4">
+                        
+                    </div>
+                    <div class="come1_5">
+                        
+                    </div>
+                    <div class="come1_6">
+                        
+                    </div>
+                    <div class="come1_7">
+                        
+                    </div>
+                    <div class="come1_8">
+                        
+                    </div>
+                    <div class="come1_9">
+                        
+                    </div>
+                    <div class="come1_10">
+                        
+                    </div>
+                    <div class="come1_11">
+                        
+                    </div>
+                    <div class="come1_12">
+
+                    </div>
+                    <div class="com21">
+                        
+                    </div>
+                    <div class="com22">
+                        
+                    </div>
+                    <div class="com23">
+                        
+                    </div>
+                    <div class="com24">
+                        
+                    </div>
+                </div>
+                <div class="opcoes2">
+                    <button class="like2" id="like-button2">
+                        <i class="fa-solid fa-heart" id="heart-icon2"></i>
+                    </button>
+                    <button class="coment2">
+                        <i class="fa-regular fa-comment"></i>
+                    </button>
+                    <button class="compartilhar2">
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </button>
+                    <button class="save2">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+                    <button class="mais2">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+                    
+                <div class="desliza1">
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="populares">
+                <div class="pops">
+                    <h2>Populares Da Semana</h2>
+                </div>
+                <div class="line3">
+
+                </div>
+                <div class="desliza2">
+
+                </div>
+                    <img class="pop1" src="./imagens.feed/pop11.jpeg" alt="p1">
+                <div>
+                    <img class="pop2" src="./imagens.feed/pop22.jpeg" alt="p2">
+                </div>
+                <div>
+                    <img class="pop3" src="./imagens.feed/pop33.jpeg" alt="p3">
+                </div>
+                <div>
+                    <img class="pop4" src="./imagens.feed/pop44.jpeg" alt="p4">
+                </div>
+                <div>
+                    <img class="pop5" src="./imagens.feed/pop55.jpeg" alt="p5">
+                </div>
+                <div>
+                    <img class="pop6" src="./imagens.feed/pop66.jpeg" alt="p6">
+                </div>
+                <div>
+                    <img class="pop7" src="./imagens.feed/pop77.jpeg" alt="p7">
+                </div>
+                <div>
+                    <img class="pop8" src="./imagens.feed/pop88.jpeg" alt="p8">
+                </div>
+                <div class="tag1">
+                    <h2 class="t1">#maiscurtida</h2>
+                </div>  
+                <div class="tag2">
+                    <h2 class="t2">#humor</h2>
+                </div>  
+                <div class="tag3">
+                    <h2 class="t3">#viral</h2>
+                </div>  
+                <div class="tag4">
+                    <h2 class="t4">#kwai</h2>
+                </div>  
+                <div class="tag5">
+                    <h2 class="t5">#familia</h2>
+                </div>  
+                <div class="tag6">
+                    <h2 class="t6">#diversao</h2>
+                </div>  
+                <div class="tag7">
+                    <h2 class="t7">#POP</h2>
+                </div>  
+                <div class="tag8">
+                    <h2 class="t8">#curiosidades</h2>
+                </div>    
+            </div>
+        </section>
+        <section id="linha"><p></p></section>
+    <section id="sec2">
+        <div class="container">  
+            <div class="rodape"><p></p></div>  
+            <div class="rodape"><p>Português (Brasil)</p></div>
+            <div class="rodape"><p>Termos</p></div>
+            <div class="rodape"><p>Ajuda?</p></div>
+            <div class="rodape"><p>Sobre</p></div>
+            <div class="rodape"><p>HeyPet © 2024</p></div>
+            <div class="rodape"><p></p></div>
+        </div>
+    </section>
+    </body>
+    <script>
+        var botaoComentario1 = document.querySelector('.coment1');
+
+    var divComentario1 = document.querySelector('.comentario1');
+
+ 
+    botaoComentario1.addEventListener('click', function() {
+
+        if (divComentario1.style.display === 'none') {
+           
+            divComentario1.style.display = 'block';
+         } else {
+            
+             divComentario1.style.display = 'none';
+         }
+    });
+
+    var botaoComentario1 = document.querySelector('.coment1');
+
+    var divComentario1 = document.querySelector('.comentario1');
+
+ 
+    botaoComentario1.addEventListener('click', function() {
+
+        if (divComentario1.style.display === 'none') {
+           
+            divComentario1.style.display = 'block';
+         } else {
+            
+             divComentario1.style.display = 'none';
+         }
+    });
+
+    var botaoComentario2 = document.querySelector('.coment2');
+
+    
+    var divComentario2 = document.querySelector('.comentario2');
+
+    
+    botaoComentario2.addEventListener('click', function() {
+    
+       if (divComentario2.style.display === 'none') {
+           
+            divComentario2.style.display = 'block';
+        } else {
+            
+           divComentario2.style.display = 'none';
+       }
+    });
+
+    var likeButton = document.getElementById('like-button');
+
+   
+    var heartIcon = document.getElementById('heart-icon');
+
+    
+    likeButton.addEventListener('click', function() {
+       
+        if (heartIcon.classList.contains('heart-initial')) {
+            
+            heartIcon.classList.remove('heart-initial');
+            
+            heartIcon.classList.add('heart-altered');
+        } else {
+            
+            heartIcon.classList.remove('heart-altered');
+            
+            heartIcon.classList.add('heart-initial');
+        }
+    });
+
+    var likeButton2 = document.getElementById('like-button2');
+
+    
+    var heartIcon2 = document.getElementById('heart-icon2');
+
+    
+    likeButton2.addEventListener('click', function() {
+        
+        if (heartIcon2.classList.contains('heart-initial')) {
+            
+            heartIcon2.classList.remove('heart-initial');
+            
+            heartIcon2.classList.add('heart-altered');
+        } else {
+            
+            heartIcon2.classList.remove('heart-altered');
+            
+            heartIcon2.classList.add('heart-initial');
+        }
+    });
+
+    var pravcButton = document.getElementById('pravc-button');
+    var segButton = document.getElementById('seg-button');
+    var line1 = document.getElementById('line1');
+    var line2 = document.getElementById('line2');
+
+   
+    pravcButton.addEventListener('click', function() {
+        
+        pravcButton.style.color = '#F57C00';
+        pravcButton.style.borderColor = '#F57C00';
+        line2.style.borderColor = '#F57C00';
+
+        
+        segButton.style.color = '#C9C1C1';
+        segButton.style.borderColor = '#C9C1C1';
+        line1.style.borderColor = '#C9C1C1';
+    });
+
+    botaoComentario1.addEventListener('click', function() {
+
+if (divComentario1.style.display === 'none') {
+   
+    divComentario1.style.display = 'block';
+ } else {
+    
+     divComentario1.style.display = 'none';
+ }
+});
+    
+    segButton.addEventListener('click', function() {
+       
+        segButton.style.color = '#F57C00';
+        segButton.style.borderColor = '#F57C00';
+        line1.style.borderColor = '#F57C00';
+
+        
+        pravcButton.style.color = '#C9C1C1';
+        pravcButton.style.borderColor = '#C9C1C1';
+        line2.style.borderColor = '#C9C1C1';
+    });
+    </script>
+    
+
+   

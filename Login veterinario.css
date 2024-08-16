@@ -1,0 +1,381 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: arial;
+  }
+aside{
+      color: black;
+      font-family: "Arial";
+      text-align: justify;
+      background-color: rgba(250, 174, 28, 1);
+      backdrop-filter: blur(10px);
+      float: right;
+      height:115vh;
+      width: 100vw;
+      margin: 0px;
+      border: 0px;
+    }
+    .bloco{
+        position:relative;
+        top: -20px; 
+        width: 600px;  
+    }
+    .logotipo{
+        position:relative;
+        top: -50px;
+    }
+    .container{
+        border: solid 2px;
+        border-color: transparent;
+        height: 735px;
+        position:relative;
+        top: -250px;
+    }
+    .tes{
+      font-size: 34pt;
+      position:relative;
+      top: -10px;
+    }
+    .bt2{
+      width: 500px;
+      position:relative;
+      top: 100px;
+      background-color: rgba(245, 124, 0, 1);
+      border-color: white;
+      color: white;
+      border-width: 1px;
+      font-size: 23pt;
+      border-radius: 30px;
+    }
+    .msg2{
+      position:relative;
+      top: -80px;
+    }
+  .sep2::before,
+  .sep2::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 180vh;
+    background-color: black;
+    position:relative;
+    top: -10px;
+  }
+  .form1{
+      width: 600px;
+      height: 50px;
+      position:relative;
+      top: 80px;
+      right: 390px;
+    }
+    .form2{
+      width: 600px;
+      height: 50px;
+      position:relative;
+      top: 140px;
+      right: 390px;
+    }
+    .form3{
+      width: 600px;
+      height: 50px;
+      position:relative;
+      top: 200px;
+      right: 390px;
+    }
+    .form4{
+        width: 600px;
+        height: 50px;
+        position:relative;
+        top: 260px;
+        right: 390px;
+      }
+    .form5{
+        width: 600px;
+        height: 50px;
+        position:relative;
+        top: -115px;
+        right: -360px;
+    }
+    .form6{
+        width: 600px;
+        height: 50px;
+        position:relative;
+        top: -55px;
+        right: -360px;
+    }
+    .form7{
+        width: 600px;
+        height: 50px;
+        position:relative;
+        top: 5px;
+        right: -360px;
+    }
+    .form8{
+        width: 600px;
+        height: 50px;
+        position:relative;
+        top: 65px;
+        right: -360px;
+    }
+    .formu1{
+      background-color: rgba(255, 231, 207, 1);
+      height: 600px;
+      width: 80%;
+      border-radius: 30px;
+      position:relative;
+      top: 180px;
+    }
+    input{
+      width: 600px;
+      height: 50px;
+      padding: 0px 15px 0px;
+      border-radius: 10px;
+      font-size: 20px;
+      background-color: rgba(250, 174, 28, 1);
+      border: 0;
+      text-align: left;
+      padding-right: 45px 12px;
+    }
+    .span1{
+      position: relative;
+      font-family: "Arial";
+      font-size: 20px;
+      color: rgba(245, 124, 0, 1);
+      right: 200px;
+      top: -93px
+    }
+    .span2{
+      position: relative;
+      font-family: "Arial";
+      font-size: 20px;
+      color: rgba(245, 124, 0, 1);
+      right: 205px;
+      top: -93px
+    }
+    .span3{
+      position: relative;
+      font-family: "Arial";
+      font-size: 20px;
+      color: rgba(245, 124, 0, 1);
+      right: 205px;
+      top: -93px
+    }
+    .span4{
+        position: relative;
+        font-family: "Arial";
+        font-size: 20px;
+        color: rgba(245, 124, 0, 1);
+        right: 205px;
+        top: -93px
+      }
+      .span5{
+        position: relative;
+        font-family: "Arial";
+        font-size: 20px;
+        color: rgba(245, 124, 0, 1);
+        right: 165px;
+        top: -93px
+      }
+      .span6{
+        position: relative;
+        font-family: "Arial";
+        font-size: 20px;
+        color: rgba(245, 124, 0, 1);
+        right: 220px;
+        top: -93px
+      }
+      .span7{
+        position: relative;
+        font-family: "Arial";
+        font-size: 20px;
+        color: rgba(245, 124, 0, 1);
+        right: 165px;
+        top: -93px
+      }
+      .span8{
+        position: relative;
+        font-family: "Arial";
+        font-size: 20px;
+        color: rgba(245, 124, 0, 1);
+        right: 80px;
+        top: -95px
+        
+      }
+    .mdi--emoticon-dog {
+      display: inline-block;
+      width: 2em;
+      height: 2em;
+      --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M18 4c-1.71 0-2.75.33-3.35.61C13.88 4.23 13 4 12 4s-1.88.23-2.65.61C8.75 4.33 7.71 4 6 4c-3 0-5 8-5 10c0 .83 1.32 1.59 3.14 1.9c.64 2.24 3.66 3.95 7.36 4.1v-4.28c-.59-.37-1.5-1.04-1.5-1.72c0-1 2-1 2-1s2 0 2 1c0 .68-.91 1.35-1.5 1.72V20c3.7-.15 6.72-1.86 7.36-4.1C21.68 15.59 23 14.83 23 14c0-2-2-10-5-10M4.15 13.87c-.5-.12-.89-.26-1.15-.37c.25-2.77 2.2-7.1 3.05-7.5c.54 0 .95.06 1.32.11c-2.1 2.31-2.93 5.93-3.22 7.76M9 12a1 1 0 0 1-1-1c0-.54.45-1 1-1a1 1 0 0 1 1 1c0 .56-.45 1-1 1m6 0a1 1 0 0 1-1-1c0-.54.45-1 1-1a1 1 0 0 1 1 1c0 .56-.45 1-1 1m4.85 1.87c-.29-1.83-1.12-5.45-3.22-7.76c.37-.05.78-.11 1.32-.11c.85.4 2.8 4.73 3.05 7.5c-.25.11-.64.25-1.15.37'/%3E%3C/svg%3E");
+      background-image: linear-gradient(to bottom,#F57C00,#524b4b);
+      -webkit-mask-image: var(--svg);
+      mask-image: var(--svg);
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      -webkit-mask-size: 100% 100%;
+      mask-size: 100% 100%;
+      position: relative;
+      right: 320px;
+      top: -85px
+    }
+    .ic--baseline-email {
+      display: inline-block;
+      width: 2em;
+      height: 2em;
+      --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z'/%3E%3C/svg%3E");
+      background-image: linear-gradient(to bottom,#F57C00,#524b4b);
+      -webkit-mask-image: var(--svg);
+      mask-image: var(--svg);
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      -webkit-mask-size: 100% 100%;
+      mask-size: 100% 100%;
+      position: relative;
+      right: 311px;
+      top: -85px
+    }
+    .mdi--password {
+      display: inline-block;
+      width: 2em;
+      height: 2em;
+      --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M12 17a2 2 0 0 0 2-2a2 2 0 0 0-2-2a2 2 0 0 0-2 2a2 2 0 0 0 2 2m6-9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h1V6a5 5 0 0 1 5-5a5 5 0 0 1 5 5v2zm-6-5a3 3 0 0 0-3 3v2h6V6a3 3 0 0 0-3-3'/%3E%3C/svg%3E");
+      background-image: linear-gradient(to bottom,#F57C00,#524b4b);
+      -webkit-mask-image: var(--svg);
+      mask-image: var(--svg);
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      -webkit-mask-size: 100% 100%;
+      mask-size: 100% 100%;
+      position: relative;
+      right: 316px;
+      top: -85px
+    }
+    .mdi--user {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4'/%3E%3C/svg%3E");
+        background-image: linear-gradient(to bottom,#F57C00,#524b4b);
+        -webkit-mask-image: var(--svg);
+        mask-image: var(--svg);
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+        position: relative;
+        right: 314px;
+        top: -85px
+      }
+      .streamline--user-identifier-card-solid {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M0 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm6 2.5a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0M1.547 9.302A3.99 3.99 0 0 1 4.5 8a3.99 3.99 0 0 1 2.953 1.302c.26.284.03.698-.355.698H1.902c-.385 0-.615-.414-.355-.698M8.875 5.5c0-.345.28-.625.625-.625h2a.625.625 0 0 1 0 1.25h-2a.625.625 0 0 1-.625-.625M9.5 7.875a.625.625 0 1 0 0 1.25h2a.625.625 0 0 0 0-1.25z' clip-rule='evenodd'/%3E%3C/svg%3E");
+        background-image: linear-gradient(to bottom,#F57C00,#524b4b);
+        -webkit-mask-image: var(--svg);
+        mask-image: var(--svg);
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+        position: relative;
+        right: 350px;
+        top: -85px
+      }
+      .mdi--sign-real-estate {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M18 8H8c-1.1 0-2 .9-2 2v6a2 2 0 0 0 2 2h10c1.11 0 2-.89 2-2v-6a2 2 0 0 0-2-2m-4 8H8v-2h6zm4-4H8v-2h10zm4-6H4v16H2V2h2v2h18z'/%3E%3C/svg%3E");
+        background-image: linear-gradient(to bottom,#F57C00,#524b4b);
+        -webkit-mask-image: var(--svg);
+        mask-image: var(--svg);
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+        position: relative;
+        right: 297px;
+        top: -85px
+      }
+      .healthicons--health-worker-form {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cg fill='%23000'%3E%3Cpath d='M17 31v-2h2v2z'/%3E%3Cpath fill-rule='evenodd' d='M20 4a3 3 0 0 0-3 3h-4a3 3 0 0 0-3 3v31a3 3 0 0 0 3 3h22a3 3 0 0 0 3-3V10a3 3 0 0 0-3-3h-4a3 3 0 0 0-3-3zm-1 3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1zm-3 13a1 1 0 1 0 0 2h7a1 1 0 1 0 0-2zm-1-4a1 1 0 0 1 1-1h15.5a1 1 0 1 1 0 2H16a1 1 0 0 1-1-1m0 12a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm13 4a3 3 0 1 0 0-6a3 3 0 1 0 0 6m-6 4.5c0-2.116 3.997-3.182 6-3.182s6 1.066 6 3.182V39H22z' clip-rule='evenodd'/%3E%3C/g%3E%3C/svg%3E");
+        background-image: linear-gradient(to bottom,#F57C00,#524b4b);
+        -webkit-mask-image: var(--svg);
+        mask-image: var(--svg);
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+        position: relative;
+        right: 363px;
+        top: -85px
+      }
+      .fa--picture-o {
+        display: inline-block;
+        width: 2.25em;
+        height: 2em;
+        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1536'%3E%3Cpath fill='%23000' d='M640 448q0 80-56 136t-136 56t-136-56t-56-136t56-136t136-56t136 56t56 136m1024 384v448H256v-192l320-320l160 160l512-512zm96-704H160q-13 0-22.5 9.5T128 160v1216q0 13 9.5 22.5t22.5 9.5h1600q13 0 22.5-9.5t9.5-22.5V160q0-13-9.5-22.5T1760 128m160 32v1216q0 66-47 113t-113 47H160q-66 0-113-47T0 1376V160Q0 94 47 47T160 0h1600q66 0 113 47t47 113'/%3E%3C/svg%3E");
+        background-image: linear-gradient(to bottom,#F57C00,#524b4b);
+        -webkit-mask-image: var(--svg);
+        mask-image: var(--svg);
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+        position: relative;
+        right: 430px;
+        top: -90px
+      }
+    .container2{
+        border: solid 2px;
+        border-color: transparent;
+        height: 100px;
+        position: relative;
+        top: 200px
+    }
+    .rodape1{
+      height: 40px;
+      width: 300px;
+      position: relative;
+      right: 700px;
+      top: 0px;
+      font-size: 20px;
+    }
+    .rodape2{
+      height: 40px;
+      width: 150px;
+      position: relative;
+      right: 290px;
+      top: -60px;
+      font-size: 20px;
+    }
+    .rodape3{
+      height: 40px;
+      width: 110px;
+      position: relative;
+      right: -480px;
+      top: -120px;
+      font-size: 20px;
+    }
+    .rodape4{
+      height: 40px;
+      width: 100px;
+      position: relative;
+      right: -800px;
+      top: -185px;
+      font-size: 20px;
+    }
+    .rodape5{
+      height: 40px;
+      width: 250px;
+      position: relative;
+      right: -60px;
+      top: -253px;
+      font-size: 20px;
+    }

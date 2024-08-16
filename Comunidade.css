@@ -1,0 +1,347 @@
+.menu{
+    position: fixed; 
+    right: 0;
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu-lateral{
+    text-align: center;  
+}
+.menu2{
+    position: relative;
+    position: fixed; 
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+}
+.sugestao1{
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #FFE7CF;
+    margin: 0 auto;
+}
+.sugestao1 h4{
+    position: absolute;
+    right: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sugestaoperfil1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+.addperfil1{
+    background: none;
+    border: 0;
+    position: absolute;
+    right: 12%;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.sugestao2{
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #FFE7CF;
+    margin: 0 auto;
+}
+.sugestao2 h4{
+    position: absolute;
+    right: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sugestaoperfil2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+.addperfil2{
+    background: none;
+    border: 0;
+    position: absolute;
+    right: 12%;
+    margin: 30px 0;
+    cursor: pointer;
+}
+.termos{
+    list-style-type: none;
+    display: flex;
+    
+    font-size: 12px;
+}
+.termos li{
+    margin: 0 10px;
+}
+#pesquisar{
+    height: 30px;
+    border-radius: 30px;
+    background-color: #FFE7CF;
+    color: black;
+    text-align: center;
+    border: 0;
+    margin: 10px 0;
+}
+::-webkit-input-placeholder {
+    color: black;
+    font: 12px;
+  
+ }
+ #arrow_sugestoes{
+    position: absolute;
+    margin: 83px 0;
+    right: 10px;
+ }
+ #text_perfils{
+    left: 10px;
+    margin: 10px 10px;
+ }
+.menu2 div{
+    padding: 10%;
+}
+.icone_menu{
+    text-align: left;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.logo{
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+.publicar{
+    margin: 50px 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #F57C00;
+    border: 0;
+    width: 100px;
+    height: 40px;
+}
+body{
+    background-color: #FFE7CF;
+    margin: 0;
+    
+}
+.Comunidade{
+    font-family: 'Helvetica';
+    font-size: 18px;
+}
+.titulo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+    font-size: 25px;
+}
+.comun{
+    background-color: #FFFF;
+    position: absolute;
+    top: 200px;
+    left: 385px;
+    font-family: 'Arial';
+    border-width: 0px;
+    width: 950px;
+    height: 950px;
+    border-radius: 20px;
+    margin: 10px 10px;
+    box-shadow: 0px 2px; 
+    font-size: 20px;
+}
+.novacom{
+    background-color: #ffffff;
+    position: relative;
+    position: absolute;
+    top: 120px;
+    left: 385px;
+    font-family: 'Arial';
+    border-width: 0px;
+    width: 950px;
+    height: 55px;
+    border-radius: 20px;
+    margin: 10px 10px;
+    box-shadow: 0px 2px; 
+    font-size: 19px;
+}
+.novcom{
+    background-color: #ffffff;
+    position: absolute;
+    top: 15px;
+    left: 870px;
+    border: 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+.img1{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+.a{
+    background-color: #FFF0D4;
+    position: absolute;
+    top: 415px;
+    left: -11px;
+    font-family: 'Arial';
+    border-width: 0px;
+    width: 650px;
+    height: 40px;
+    border-left: 0px;
+    border-radius: 20px;
+    margin: 16px 15px;
+    font-size: 19px;
+}
+.a p{
+    margin: 10px 10px;
+}
+.b{
+    background-color: #FFF0D4;
+    position: absolute;
+    top: 495px;
+    left: 120px;
+    font-family: 'Arial';
+    border-width: 0px;
+    width: 250px;
+    height: 50px;
+    font-size: 19px;
+}
+.b p{
+    margin: 15px 0;
+}
+.chat{
+    top: 52.5%;
+    margin: 0 45px;
+    position: absolute;
+    font-size: 30px;
+}
+.c{
+    background-color: rgb(0, 0, 0, 1%);
+    position: absolute;
+    top: 560px;
+    left: 160px;
+    font-family: 'Arial';
+    border: 1px solid rgb(0, 0, 0);
+    width: 750px;
+    height: 350px;
+    font-size: 19px;
+    box-shadow: inset;
+    
+}
+.comunidadetitulo{
+    margin: 15px 10px;
+}
+.nomedeusuario{
+    margin: 10px 5px;
+}
+.comentariousuario{
+    margin: 10px 5px;
+}
+.digitar{
+    position: absolute;
+    top: 90.5%;
+    right: -0.1%;
+    height: 30px;
+    width: 745px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #FFE7CF;
+    text-align: center;
+}
+#emoji{
+    position: absolute;
+    top: 95.5%;
+    left: 1%;
+    cursor: pointer;
+}
+#dig{
+    font-size: 20px;
+}
+.enviar{
+    position: absolute;
+    top: 92%;
+    right: 1%;
+    cursor: pointer;
+
+}
+.f{
+    position: absolute;
+    top: 9%;
+    right: 320px;
+}
+.afiliado1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 140px 570px;
+}
+.novoafiliado{
+    background-color: #ffffff;
+    position: absolute;
+    top: 160px;
+    right: 140px;
+    border: 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+.imagem{
+    background-color: #ffffff;
+    position: absolute;
+    top: 250px;
+    right: 330px;
+    border: 0;
+    box-shadow: 2px 2px #F57C00;
+    font-size: 30px;
+}
+.fotos{
+    background-color: #F57C00;
+    position: absolute;
+    top: 250px;
+    right: 160px;
+    font-family: 'Arial';
+    width: 150px;
+    height: 30px;
+    font-size: 19px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.fotos p{
+    margin: 5px 35px;
+}
+.afiliado2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 140px;
+    right: 30%;
+}
+.afiliado3{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 140px;
+    right: 25%;
+}
+.afiliado4{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 140px;
+    right: 20%;
+    
+} 

@@ -1,0 +1,265 @@
+#menu-lateral{
+    text-align: center;  
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.menu2{
+    position: relative;
+    position: fixed; 
+    background-color: white;
+    width: 250px;
+    height: 100%;
+    z-index: 1; 
+}
+.menu2 div{
+    padding: 10%;
+}
+.icone_menu{
+    text-align: left;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.logo{
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+.publicar{
+    margin: 50px 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #F57C00;
+    border: 0;
+    width: 100px;
+    height: 40px;
+}
+body{
+    background-color: rgb(255, 228, 196);
+    margin: 0;
+
+}
+
+#sec{
+    height: 100%;
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    position: relative;
+    z-index: 2;
+}
+#sec0{
+    width: 100%;
+    background-color: rgb(245, 124, 0);
+    height: 70px;
+}
+.barraprem{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: rgb(245, 124, 0);
+    letter-spacing: 1em;
+}
+.barraprem h1{
+    margin: 0 41%;
+}
+#sec1{
+    width: 100%;
+    background-color: rgb(255, 228, 196);
+}
+.centroprem{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 228, 196);
+    
+}
+.textotitulo{
+    margin: 0 auto;
+}
+#sec1_2{
+    width: 90%;
+    left: 50px;
+    background-color: white;
+    border-radius: 30px;
+    height: 150px;
+    position: relative;
+}
+.fotonivel1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+#sec1_2 h2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 150px;
+    top: 20px;
+}
+#sec1_2 button{
+    position: absolute;
+    left: 142px;
+    top: 80px;
+    background-color: #F57C00;
+    border-radius: 50px;
+    width: 90px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+.sobre1{
+    position: absolute;
+    left: 500px;
+    top: 5px;
+    font-size: 17px;
+    text-align: center;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sabermais1{
+    color: #F57C00;
+    position: absolute;
+    left: 570px;
+    top: 80px;
+    font-size: 17px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+#sec1_3{
+    width: 90%;
+    left: 50px;
+    background-color: white;
+    border-radius: 20px;
+    height: 150px;
+    position: relative;
+}
+.fotonivel2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+#sec1_3 h2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 150px;
+    top: 20px;
+}
+#sec1_3 button{
+    position: absolute;
+    left: 142px;
+    top: 80px;
+    background-color: #F57C00;
+    border-radius: 50px;
+    width: 90px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+.sobre2{
+    position: absolute;
+    left: 500px;
+    top: 5px;
+    font-size: 17px;
+    text-align: center;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sabermais2{
+    color: #F57C00;
+    position: absolute;
+    left: 570px;
+    top: 80px;
+    font-size: 17px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+#sec1_4{
+    width: 90%;
+    left: 50px;
+    background-color: white;
+    border-radius: 20px;
+    height: 150px;
+    position: relative;
+}
+.fotonivel3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+#sec1_4 h2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 150px;
+    top: 20px;
+}
+#sec1_4 button{
+    position: absolute;
+    left: 142px;
+    top: 80px;
+    background-color: #F57C00;
+    border-radius: 50px;
+    width: 90px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+.sobre3{
+    position: absolute;
+    left: 500px;
+    top: 5px;
+    font-size: 17px;
+    text-align: center;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sabermais3{
+    color: #F57C00;
+    position: absolute;
+    left: 570px;
+    top: 80px;
+    font-size: 17px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+#linha{
+    width: 100%;
+    background-color: black;
+    height: 1px;
+}
+#sec2{
+    width: 100%;
+    bottom: 0%;
+    margin: 0 auto;
+    background-color: rgb(255, 228, 196);
+}
+.container{
+    display: flex;
+    justify-content: space-between; 
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+}
+.item {
+    padding: 10px;
+    text-align: center;
+}

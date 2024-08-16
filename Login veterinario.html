@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Heypet">
+    <title>Heypet</title>
+    <link rel="stylesheet" type="text/css" href="Login veterinario.css">
+    <script src="Login veterinario.JS"></script>
+</head>
+<body>
+    <aside>
+        <center>
+        <div class="bloco">
+            <div class="tes">
+                <h1>Heypet</h1>
+                <div class="logotipo"><img src="C:\Users\wilto\OneDrive\Imagens\Capturas de tela\Captura de tela 2024-05-16 135010.png" height="95px" width="145px alt="></div>
+            </div class="tes">
+            <div class="msg2">
+                <h2>Preencha todos os campos com os dados solicitados </h2>
+            </div>
+        </div>
+        </center>
+            <div class="container"> 
+            <center>
+                    <form class="formu1">
+                        <div class="form1">
+                            <input type="text" name="login" id="usuario" required><br>
+                            <span class="span1">Usuário</span>
+                            <span class="mdi--emoticon-dog"></span>
+                        </div class="form1">
+                        <div class="form2">
+                            <input type="password" name="senha" id="senha" required><br>
+                            <span class="span2">Senha</span>
+                            <span class="mdi--password"></span>
+                        </div class="form1">
+                        <div class="form3">
+                            <input type="email" name="email" id="email" required><br>
+                            <span class="span3">Email</span>
+                            <span class="ic--baseline-email"></span>
+                        </div class="form3">
+                        <div class="form4">
+                            <input type="text" name="nome" id="nome" required ><br>
+                            <span class="span4">Nome</span>
+                            <span class="mdi--user"></span>
+                        </div class="form4">
+                        <div class="form5">
+                            <input type="text" name="cpf" autocomplete="off" maxlength="14" id="cpf" required><br>
+                            <span class="span5">Digite seu CPF</span>
+                            <span class="streamline--user-identifier-card-solid"></span>
+                        </div class="form5">
+                        <div class="form6">
+                            <input type="text" name="UF" maxlength="2" id="uf" required><br>
+                            <span class="span6">UF</span>
+                            <span class="mdi--sign-real-estate"></span>
+                        </div class="form6">
+                        <div class="form7">
+                            <input type="text" name="CRMV" id="crmv" required><br>
+                            <span class="span7">Digite seu CRMV</span>
+                            <span class="healthicons--health-worker-form"></span>
+                        </div class="form7">
+                        <div class="form8">
+                            <label for="picture"></label>
+                            <input type="file" name="imagem" id="picture"><br>
+                            <span class="span8">Adicione a imagem do seu CRMV</span>
+                            <span class="fa--picture-o"></span>
+                        </div class="form8">
+                    </form>
+                <button class="bt2" type="button" onclick="logar(); return false">Cadastrar</button>
+                <div class="container2">    
+                    <div class="sep2"></div>
+                    <div class="rodape1"><h2>Português (Brasil)</h2></div>
+                    <div class="rodape2"><h2>Termos</h2></div>
+                    <div class="rodape3"><h2>Ajuda?</h2></div>
+                    <div class="rodape4"><h2>Sobre</h2></div>
+                    <div class="rodape5"><h2>HeyPet © 2024</h2></div>
+                </div>   
+            </center>
+        </div>
+    </aside>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+
+    <script>
+          $('#cpf').mask('000.000.000-00', {reverse: true});
+    </script>
+</body>
+
+   

@@ -1,0 +1,474 @@
+.menu{
+    position: fixed; 
+    right: 0;
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu-lateral{
+    text-align: center;  
+}
+.menu2{
+    position: relative;
+    position: fixed; 
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+}
+.sugestao1{
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #FFE7CF;
+    margin: 0 auto;
+}
+.sugestao1 h4{
+    position: absolute;
+    right: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sugestaoperfil1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+.addperfil1{
+    background: none;
+    border: 0;
+    position: absolute;
+    right: 12%;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.sugestao2{
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #FFE7CF;
+    margin: 0 auto;
+}
+.sugestao2 h4{
+    position: absolute;
+    right: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sugestaoperfil2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+.addperfil2{
+    background: none;
+    border: 0;
+    position: absolute;
+    right: 12%;
+    margin: 30px 0;
+    cursor: pointer;
+}
+.termos{
+    list-style-type: none;
+    display: flex;
+    
+    font-size: 12px;
+}
+.termos li{
+    margin: 0 10px;
+}
+#pesquisar{
+    height: 30px;
+    border-radius: 30px;
+    background-color: #FFE7CF;
+    color: black;
+    text-align: center;
+    border: 0;
+    margin: 10px 0;
+}
+::-webkit-input-placeholder {
+    color: black;
+    font: 12px;
+  
+ }
+ #arrow_sugestoes{
+    position: absolute;
+    margin: 83px 0;
+    right: 10px;
+ }
+ #text_perfils{
+    left: 10px;
+    margin: 10px 10px;
+ }
+.menu2 div{
+    padding: 10%;
+}
+.icone_menu{
+    text-align: left;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.logo{
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+.publicar{
+    margin: 50px 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #F57C00;
+    border: 0;
+    width: 100px;
+    height: 40px;
+}
+body{
+    background-color: bisque;
+    margin: 0;
+}
+.voltarperfil{
+    position: absolute;
+    left: 23%;
+    top: 5%;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+.adicionarperfil{
+    position: absolute;
+    left: 72%;
+    top: 5%;
+    cursor: pointer;
+    border: 0;
+    background: none;
+   }
+   .pontinhosperfil{
+    position: absolute;
+    left: 77%;
+    top: 5%;
+    cursor: pointer;
+    border: 0;
+    background: none;
+   }
+.ftperfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 400px; /* Ajuste conforme necessário */
+    height: 400px; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.descricao{
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+.editarsobre{
+    top: 10%;
+    left: 85%;
+    background-color: #F57C00;
+    border-radius: 20px;
+    border: 0;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.texto_desc{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%;
+    padding: 3px 0;
+}
+.username{
+    color: #F57c00;
+}
+.seguidores{
+    display: flex;
+    font-weight: bold;
+}
+.seguidores2{
+    padding: 0px 50px;
+}
+.linha {
+    width: 500px;
+    height: 2px;
+    background-color: #f57c00;
+    margin: 15px auto;
+}
+.categorias{
+text-align: center;
+margin: 15px auto;
+
+}
+.cat{
+    border: 0;
+    cursor: pointer;
+    background: none;
+}
+
+
+/* POSTAGEM */
+
+.postagem{
+    background-color: white;
+    border-radius: 30px;
+    width: 700px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    position: relative;
+}
+.fotozinha{
+    width: 50px;
+    border-radius: 50%;
+    padding: 8px 8px;
+    
+}
+.nomepostagem h4{
+    margin: 0;
+    margin-top: 15px;
+    
+}
+.postageminfo{
+    display: flex;
+}
+.horario{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 70%;
+    padding: 10px;
+}
+.texto{
+    padding: 0 50px;
+}
+.botaopontinhos{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background: none;
+}
+.userpostagem{
+    margin-top: 0px;
+    margin: 3px 0px;
+    color: #F57C00;
+    font-size: 12px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.reacoes{
+    width: 20px;
+    cursor: pointer;
+    border: 0;
+    background: none;
+ }
+ .reacao .reacoes {
+    margin: 40px 29px;
+}
+.reacao{
+    display: flex;
+}
+.reacao .likes{
+    position: absolute;
+    left: 65px;
+    top: 77%;
+    font-weight: bold;
+}
+.reacao .comments{
+    position: absolute;
+    left: 140px;
+    top: 77%;
+    font-weight: bold;
+}
+.linhapost{
+    width: 500px;
+    height: 2px;
+    background-color: #ffc892;
+    margin: 15px auto;
+}
+
+/* POSTAGEM 2 */
+
+.postagem2{
+    background-color: white;
+    border-radius: 30px;
+    width: 700px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    position: relative;
+}
+.fotozinha2{
+    width: 50px;
+    border-radius: 50%;
+    padding: 8px 8px;
+    
+}
+.nomepostagem2 h4{
+    margin: 0;
+    margin-top: 15px;
+    
+}
+.postageminfo2{
+    display: flex;
+}
+.horario2{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 70%;
+    padding: 10px;
+}
+.texto2{
+    padding: 0 50px;
+}
+.botaopontinhos2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background: none;
+}
+.userpostagem2{
+    margin-top: 0px;
+    margin: 3px 0px;
+    color: #F57C00;
+    font-size: 12px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.reacoes2{
+    width: 20px;
+    cursor: pointer;
+    border: 0;
+    background: none;
+ }
+ .reacao2 .reacoes2 {
+    margin: 40px 29px;
+}
+.reacao2{
+    display: flex;
+}
+.reacao2 .likes2{
+    position: absolute;
+    left: 65px;
+    top: 77%;
+    font-weight: bold;
+}
+.reacao2 .comments2{
+    position: absolute;
+    left: 140px;
+    top: 77%;
+    font-weight: bold;
+}
+
+/* POSTAGEM 3 */
+
+.postagem3{
+    background-color: white;
+    border-radius: 30px;
+    width: 700px;
+    height: 644px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    position: relative;
+}
+.fotozinha3{
+    width: 50px;
+    border-radius: 50%;
+    padding: 8px 8px;
+    
+}
+.nomepostagem3 h4{
+    margin: 0;
+    margin-top: 15px;
+    
+}
+.postageminfo3{
+    display: flex;
+}
+.horario3{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 70%;
+    padding: 10px;
+}
+.texto3{
+    transform: translateX(-50%);
+    margin-left: 50%;
+    width: 500px;
+    height: 500px;
+}
+.botaopontinhos3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background: none;
+}
+.userpostagem3{
+    margin-top: 0px;
+    margin: 3px 0px;
+    color: #F57C00;
+    font-size: 12px;
+}
+
+.reacoes3{
+    width: 20px;
+    cursor: pointer;
+    border: 0;
+    background: none;
+ }
+ .reacao3 .reacoes3 {
+    margin: 40px 29px;
+}
+.reacao3{
+    display: flex;
+}
+.reacao3 .likes3{
+    position: absolute;
+    left: 65px;
+    top: 92.5%;
+    font-weight: bold;
+}
+.reacao3 .comments3{
+    position: absolute;
+    left: 140px;
+    top: 92.5%;
+    font-weight: bold;
+}
